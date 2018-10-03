@@ -121,12 +121,11 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/slo-2017-blanc-long.png",
+              "src": "@PROJECT_PATH@/assets/images/slo-2018-ok.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
