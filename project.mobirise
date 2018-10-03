@@ -577,7 +577,7 @@
           },
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/peinture.jpg",
+              "src": "@PROJECT_PATH@/assets/images/peinture-2018.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -588,7 +588,7 @@
           },
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/programme-frc-2018.jpg",
+              "src": "@PROJECT_PATH@/assets/images/programme-frc.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -599,7 +599,7 @@
           },
           "media4": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/bourdon.jpg",
+              "src": "@PROJECT_PATH@/assets/images/photo-2018.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
