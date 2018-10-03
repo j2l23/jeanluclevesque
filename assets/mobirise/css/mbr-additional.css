@@ -1,7 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+
+
+
 
 
 
@@ -486,6 +489,7 @@ h6,
 }
 #header1-r .mbr-section-lead {
   font-size: 18px;
+  font-family: 'Raleway', sans-serif;
 }
 #msg-box8-a .mbr-section-title,
 #msg-box8-a p {
@@ -493,6 +497,10 @@ h6,
 }
 #msg-box8-a .mbr-section-title {
   font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+}
+#msg-box8-a .lead P {
+  font-family: 'Raleway', sans-serif;
 }
 #header3-q .mbr-section-title,
 #header3-q .mbr-section-subtitle {
@@ -514,6 +522,16 @@ h6,
 }
 #header3-g SMALL {
   color: #ffffff;
+}
+#header3-y .mbr-section-title,
+#header3-y .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-y .mbr-section-title {
+  font-size: 24px;
+}
+#header3-y .mbr-section-subtitle {
+  color: #000000;
 }
 #social-buttons3-u .mbr-section-title,
 #social-buttons3-u .btn-social {
