@@ -585,7 +585,7 @@
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/peintureok.png",
+              "src": "@PROJECT_PATH@/assets/images/peintureok.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -601,7 +601,7 @@
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/frcok.png",
+              "src": "@PROJECT_PATH@/assets/images/frcok.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -617,7 +617,7 @@
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/photook.png",
+              "src": "@PROJECT_PATH@/assets/images/photook.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
