@@ -23,8 +23,8 @@
       "additionalSetColors": []
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 36,
-    "versionPublish": "4.8.1",
+    "uniqCompNum": 35,
+    "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": "true",
     "google-analytics": "",
@@ -106,17 +106,17 @@
           "_name": "menu",
           "_anchor": "menu-s",
           "_params": {
-            "logo": false,
-            "showBrand": true,
-            "hideButtons": false,
-            "sticky": true,
-            "collapsed": true,
-            "transparent": false,
             "bgColor": "#282828",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor"
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": false,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
           },
           "logo": {
             "image": {
@@ -155,23 +155,23 @@
           },
           "_anchor": "header1-r",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "showArrow": true,
-            "contentAlign": "center",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/jllok.png",
             "parallax": false,
-            "bgColorRadio": false,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/jllok.png",
             "bgColor": "#a07e49",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0",
             "overlayColor": "#000",
-            "overlayOpacity": "0"
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
           },
           "title": "<div></div><div></div><div>\n\n\n</div><br><br><br><br><div>Directeur artistique</div>",
           "text": "<span style=\"font-style: normal;\"><br>Je n'ai qu'une seule priorité ! Quel que soit votre domaine d'intervention : <br>décrypter vos enjeux de communication et dépasser vos objectifs.</span><br>",
@@ -198,23 +198,23 @@
           "_name": "msg-box8",
           "_anchor": "msg-box8-a",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButton": false,
             "paddingTop": "3",
             "paddingBottom": "1",
+            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
             "bgColor": "#F2F2F2",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.6",
             "overlayColor": "#222",
-            "overlayOpacity": "0.6"
+            "showTitle": true,
+            "showText": true,
+            "showButton": false
           },
           "title": "Courte présentation",
           "text": "<p>&nbsp;Que ce soit sur un plan artistique, analytique, organisationnel, prospectif, rédactionnel&nbsp;<span style=\"font-size: 1.07rem; line-height: 1.5;\">ou simplement exécutif, je&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">décline créativité, proactivité et réactivité&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">pour solutionner toute problématique de communication. J'ai nourri, depuis plus de vingt-cinq ans, de fructueuses collaborations avec des partenaires aussi prestigieux qu'Alcatel, European Aeronautic Defence and Space company, Ricoh France, Mode in France, Constructa, Profem, Alliantis, AESN Paris Île-de-France, j'ai également supervisé la direction artistique de plusieurs magazines mainstream dans le domaine du cinéma, du sport, du tourisme dont STUDIO Magazine et Jogging International.</span></p>",
@@ -235,10 +235,10 @@
           "_name": "header3",
           "_anchor": "header3-q",
           "_params": {
-            "showMeta": false,
             "paddingTop": "6",
             "paddingBottom": "2",
-            "bgColor": "#efefef"
+            "bgColor": "#efefef",
+            "showMeta": false
           },
           "title": "Domaines d'intervention",
           "meta": "By John Smith posted July 20, 2016"
@@ -256,26 +256,26 @@
           },
           "_anchor": "features6-7",
           "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "6",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": false,
             "ShowTexts": true,
-            "showButtons": false,
-            "paddingTop": "0",
-            "paddingBottom": "1",
-            "columns": "6",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#efefef",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "showButtons": false
           },
           "media1": {
             "iconFont": {
@@ -386,10 +386,10 @@
           "_name": "header3",
           "_anchor": "header3-g",
           "_params": {
-            "showMeta": true,
             "paddingTop": "6",
             "paddingBottom": 1,
-            "bgColor": "#282828"
+            "bgColor": "#282828",
+            "showMeta": true
           },
           "title": "Showroom",
           "meta": "Morceaux choisis de mes collaborations"
@@ -401,13 +401,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#323232",
+            "bgColorRadio": true,
             "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
           },
           "text": "Copyright (c) 2017. Jean-Luc Levesque."
         },
@@ -418,15 +418,8 @@
           ],
           "_name": "gallery3",
           "_params": {
-            "showBullets": true,
-            "fullWidth": true,
-            "spacing": 1,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "filterBgColor": true,
-            "bgColor": "#282828",
-            "showText": true,
-            "filter": false,
             "images": [
               {
                 "tags": "Awesome",
@@ -508,7 +501,14 @@
                 "caption": "Publicité, rédaction, traduction",
                 "active": false
               }
-            ]
+            ],
+            "spacing": 1,
+            "showText": true,
+            "filter": false,
+            "bgColor": "#282828",
+            "filterBgColor": true,
+            "fullWidth": true,
+            "showBullets": true
           },
           "_anchor": "gallery3-t",
           "articleLayout": false,
@@ -526,43 +526,47 @@
               "color": "#000000"
             }
           },
-          "_params": {
-            "showMeta": false,
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#ffffff"
-          },
-          "title": "<br>Dernières nouvelles",
-          "meta": "Et il nous reste encore du temps pour nous amuser",
           "_tags": [
             "Thème"
           ],
           "_name": "header3",
-          "_anchor": "header3-y"
+          "_anchor": "header3-y",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#cccccc",
+            "showMeta": false
+          },
+          "title": "<br>Dernières nouvelles",
+          "meta": "Et il nous reste encore du temps pour nous amuser"
         },
         {
+          "_tags": [
+            "Thème"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-x",
           "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#cccccc",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "5",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": false,
             "ShowTexts": true,
-            "showButtons": false,
-            "columnsColor": "#2e2e2e",
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "columns": "5",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "showButtons": false
           },
           "media1": {
             "image": {
@@ -575,39 +579,58 @@
               "title": ""
             }
           },
+          "title1": "Festival de Cannes 2017",
+          "subtitle1": "",
+          "caption1": "Accompagnement du film \"The Chinese Widow\" de Bille August <br>pour le Festival de Cannes 2017. Interface entre la production et la distribution.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/peinture-2018-ok.png",
+              "src": "@PROJECT_PATH@/assets/images/peintureok.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
               "link": "",
               "alt": "",
-              "title": ""
+              "title": "",
+              "linkInNewWindow": false
             }
           },
+          "title2": "Peinture 2018",
+          "subtitle2": "",
+          "caption2": "Divers travaux créatifs, essentiellement peinture (huile, aquerelle, gouache, aerosol, techniques mixtes) sur différents supports.&nbsp;",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/programme-frc-ok.png",
+              "src": "@PROJECT_PATH@/assets/images/frcok.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
               "link": "",
               "alt": "",
-              "title": ""
+              "title": "",
+              "linkInNewWindow": false
             }
           },
+          "title3": "Festival de Robotique 2018",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Création de différents supports de communication pour le Festival de Robotique de Cachan, (programme, affiche, flyer).&nbsp;",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/photo-2018-ok.png",
+              "src": "@PROJECT_PATH@/assets/images/photook.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
               "link": "",
               "alt": "",
-              "title": ""
+              "title": "",
+              "linkInNewWindow": false
             }
           },
+          "title4": "Photographie",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Des photos, plein de photos, encore, toujours.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media5": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/t-shirt-et-casquette-sdus-2017.jpg",
@@ -619,6 +642,10 @@
               "title": ""
             }
           },
+          "title5": "SDUS 2018",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Déclinaison des programmes sportifs de la ville de Saint-Denis après création de la charte graphique.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media6": {
             "image": {
               "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
@@ -627,40 +654,10 @@
               "active": true
             }
           },
-          "title1": "Festival de Cannes 2017",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Accompagnement du film \"The Chinese Widow\" de Bille August pour le Festival de Cannes 2017. Interface entre la production et la distribution.",
-          "title2": "Peinture 2018",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "Divers travaux créatifs, essentiellement peinture (huile, aquerelle, gouache, aerosol, techniques mixtes) sur différents supports. ",
-          "title3": "Festival de Robotique 2018",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Création de différents supports de communication pour le Festival de Robotique de Cachan, (programme, affiche, flyer). ",
-          "title4": "Photographie",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Des photos, plein de photos, encore, toujours.",
-          "title5": "SDUS 2018",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Déclinaison des programmes sportifs de la ville de Saint-Denis après création de la charte graphique.",
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_tags": [
-            "Thème"
-          ],
-          "_name": "features1",
-          "_anchor": "features1-z",
-          "_styles": {
-            ".striped .mbr-cards-col:nth-child(2n+1)": {
-              "background-color": "#2e2e2e"
-            }
-          }
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
           "_inherit": "social-buttons1",
@@ -681,13 +678,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
             "overlay": false,
-            "overlayColor": "#222",
             "overlayOpacity": 0.5,
+            "overlayColor": "#222",
             "facebook": true,
             "twitter": true,
             "google": true,
@@ -711,13 +708,13 @@
             "paddingTop": "1",
             "paddingBottom": "4",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2.jpg",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2.jpg",
             "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
             "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
           },
           "text1": "<span style=\"font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\">Je vous remercie de votre visite</span><br><span style=\"font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\"><br></span><br><span style=\"font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\">Contact</span><br>\nEmail: jean-luc.levesque@sfr.fr<br>&nbsp;+33 6 72 55 53 19<br>",
           "text2": "<ul class=\"mbr-contacts__list\"><br><br><br></ul>",
