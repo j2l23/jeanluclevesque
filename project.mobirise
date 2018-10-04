@@ -599,7 +599,7 @@
           },
           "media4": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/photo-2018.jpg",
+              "src": "@PROJECT_PATH@/assets/images/photo-2018-ok.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
