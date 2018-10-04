@@ -533,6 +533,9 @@ h6,
 #header3-y .mbr-section-subtitle {
   color: #000000;
 }
+#features1-z .striped .mbr-cards-col:nth-child(2n+1) {
+  background-color: #2e2e2e;
+}
 #social-buttons3-u .mbr-section-title,
 #social-buttons3-u .btn-social {
   color: #fff;
