@@ -576,7 +576,7 @@
           },
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/peinture-2018.jpg",
+              "src": "@PROJECT_PATH@/assets/images/peinture-2018-ok.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -587,7 +587,7 @@
           },
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/programme-frc.jpg",
+              "src": "@PROJECT_PATH@/assets/images/programme-frc-ok.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -598,7 +598,7 @@
           },
           "media4": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/photo-2018.jpg",
+              "src": "@PROJECT_PATH@/assets/images/photo-2018-ok.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
